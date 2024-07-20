@@ -1,0 +1,278 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home{
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    padding: 15px;
+    height:250px;
+    border-radius: 10px;
+    background-color: #DA7276;
+
+}
+.h2{
+    margin-top: 50px;
+}
+.buy{
+    padding: 15px;
+    width: 200px;
+    font-size: 20px;
+    transition: background-color 1s;
+}
+.buy:hover{
+    background-color: #DA7276;
+    border: 2px solid black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: black;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.logo{
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+#about{
+    
+    background-color: grey;
+    color: white;
+        padding: 20px;
+        height: 800px;
+        border-radius: 15px;
+        width: 100%;
+        text-align: center;
+    
+}
+.second_img{
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 9px black;
+   
+}
+.jupyter{
+    padding: 15px;
+    width: 250px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.radyium{
+    padding: 15px;
+    width: 250px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #DA7276;
+}
+.third_img{
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 9px black;
+}
+#services{
+    text-align: center;
+}
+.logo2{
+    width: 200px;
+    
+}
+
+#footer{
+    background-color: grey;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: #575757;
+    border-radius: 4px;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+main{
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+       
+        align-items: center;
+        display: flex;
+    }
+
+    nav ul {
+        flex-direction: row;
+        width: 100%;
+        display: none;
+    }
+
+    nav ul li {
+        width: 100%;
+        margin: 0;
+    }
+
+    .logo{
+        width: 50px;
+    }
+
+    nav ul li a {
+        width: 100%;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .menu-icon {
+        display: block;
+        text-align: center;
+    }
+
+    .show {
+        display: flex;
+    }
+
+    .second_img{
+        width: 250px;
+        border-radius: 20px;
+    }
+    #about{
+        background-color: grey;
+        color: white;
+        padding: 20px;
+        height: 800px;
+        border-radius: 15px;
+        width: 100%;
+        text-align: center;
+    }
+    .h2_about{
+        margin-top: 50px;
+    }
+    .jupyter{
+        background-color: black;
+        padding: 10px;
+        border: none;
+        color: white;
+        border-radius: 10px;
+        width: 200px;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    
+    .radyium{
+    
+        padding: 10px;
+        border: 2px solid black;
+        color: black;
+        border-radius: 10px;
+        width: 200px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .buy{
+        padding: 10px;
+        border: none;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        width: 150px;
+    }
+    
+    .h2{
+        margin-top: 40px;
+    }
+    
+    #home{
+        
+        border: 1px solid black;
+        padding: 10px;
+        border-radius: 25px;
+        background-color: #DA7276;
+        text-align: center;
+        height: 300px;
+    }
+    .third_img{
+        width: 250px;
+        border-radius: 10px;
+    }
+    #services{
+        text-align: center;
+    }
+    .logo2{
+        width: 150px;
+       
+
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    #footer{
+        background-color: grey;
+        padding: 15px;
+        text-align: center;
+    }
+
+}
+
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
