@@ -11,7 +11,7 @@
     padding: 15px;
     height:250px;
     border-radius: 10px;
-    background-color: #DA7276;
+    background-color: rgba(72, 32, 247, 0.658)
 
 }
 .h2{
@@ -35,7 +35,7 @@ body {
 }
 
 header {
-    background: #333;
+    background: #000000;
     color: #fff;
     padding: 1rem 0;
 }
@@ -62,7 +62,7 @@ nav ul {
 }
 #about{
     
-    background-color: grey;
+    background-color: rgb(12, 55, 83);
     color: white;
         padding: 20px;
         height: 800px;
@@ -79,19 +79,26 @@ nav ul {
     box-shadow: 5px 5px 9px black;
    
 }
-.jupyter{
+.Chart{
     padding: 15px;
     width: 250px;
     font-size: 20px;
     border-radius: 10px;
     margin-top: 20px;
 }
-.radyium{
+.Chart:hover{
+    background-color: #DA7276;
+    border: 2px solid black;
+}
+.Telegram{
     padding: 15px;
     width: 250px;
     font-size: 20px;
     border-radius: 10px;
+}
+.Telegram:hover{
     background-color: #DA7276;
+    border: 2px solid black;
 }
 .third_img{
     text-align: center;
@@ -199,7 +206,7 @@ a{
     .h2_about{
         margin-top: 50px;
     }
-    .jupyter{
+    .Chart{
         background-color: black;
         padding: 10px;
         border: none;
@@ -210,7 +217,7 @@ a{
         font-size: 20px;
     }
     
-    .radyium{
+    .Telegram{
     
         padding: 10px;
         border: 2px solid black;
